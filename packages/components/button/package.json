@@ -1,0 +1,32 @@
+{
+  "name": "@luckin/button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/luckin-button.umd.js",
+  "module": "./dist/luckin-button.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/luckin-button.umd.js",
+      "module": "./dist/luckin-button.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@luckin/shared": "workspace:^"
+  }
+}
